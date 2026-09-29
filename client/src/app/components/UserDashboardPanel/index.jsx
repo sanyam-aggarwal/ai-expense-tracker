@@ -39,7 +39,7 @@ export function UserDashboardPanel() {
         ))}
       </nav>
       <button className="logout-button" onClick={logout}>
-        Log out
+        Sign out
       </button>
     </aside>
   );
