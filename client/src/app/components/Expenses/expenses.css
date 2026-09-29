@@ -1,0 +1,26 @@
+.expense-row {
+    grid-template-columns: auto 2fr 1fr auto;
+}
+
+.expense-actions {
+    display: flex;
+    gap: .4rem;
+    order: -1;
+}
+
+.expense-action {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #d7e4d9;
+    border-radius: 7px;
+    background: #fff;
+    color: #356b45;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.expense-action.delete-action {
+    color: #b34a3e;
+    border-color: #efd5d1;
+}

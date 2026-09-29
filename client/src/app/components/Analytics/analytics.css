@@ -1,0 +1,6 @@
+.analytics-breakdown { display: grid; grid-template-columns: minmax(180px, 260px) 1fr; align-items: center; gap: 2rem; }
+.pie-chart { width: min(100%, 230px); aspect-ratio: 1; border-radius: 50%; position: relative; margin: 0 auto; }
+.pie-chart::after { content: ""; position: absolute; inset: 25%; border-radius: 50%; background: #fff; }
+.category-row { grid-template-columns: auto 1fr auto; }
+.category-dot { width: 10px; height: 10px; border-radius: 50%; }
+@media (max-width: 620px) { .analytics-breakdown { grid-template-columns: 1fr; } }
